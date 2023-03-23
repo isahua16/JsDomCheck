@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    justify-items: center;
+}
+
+header {
+    width: 90%;
+    display: grid;
+    min-height: 10vh;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: start;
+    margin-bottom: 32px;;
+}
+
+#main_nav {
+    justify-self: end;
+}
+
+main {
+    width:90%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img {
+    width: 100%;
+}
