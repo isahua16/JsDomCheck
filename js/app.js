@@ -3,3 +3,6 @@ let first_h2 = document.querySelector(`h2`);
 let all_p_tags = document.querySelectorAll(`p`);
 let all_articles = document.querySelectorAll(`.article`);
 let my_header = document.querySelector(`#main_header`);
+
+let all_articles2 = document.getElementsByClassName(`article`);
+let my_header2 = document.getElementById(`main_header`);
