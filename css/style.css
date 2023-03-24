@@ -7,6 +7,7 @@
 body {
     display: grid;
     justify-items: center;
+    font-family: sans-serif;
 }
 
 header {
@@ -25,11 +26,19 @@ header {
 
 main {
     width:90%;
-    min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 img {
     width: 100%;
+    border-radius: 50px;
 }
+
+.article {
+    width: 90%;
+    display: grid;
+    row-gap: 12px;
+
+}
+

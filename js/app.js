@@ -11,8 +11,8 @@ first_h2.style.fontSize = `2rem`;
 first_h2.style.color = `green`;
 first_h2.style.backgroundColor = `yellow`;
 
+
 for(let i = 0; i < all_p_tags.length; i++)
 {
     all_p_tags[i].innerHTML = `HACKED`;
 }
-
